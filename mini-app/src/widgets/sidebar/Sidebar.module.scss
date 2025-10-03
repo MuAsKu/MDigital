@@ -1,0 +1,43 @@
+.crypto {
+  width: 232px;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background-color: #784FFE;
+  color: white;
+  font-size: 16px;
+  gap: 20px;
+  border: none;
+  padding-left: 16px;
+  margin-bottom: 20px;
+
+  img {
+    width: 43px;
+    height: 43px;
+  }
+}
+
+.sidebar {
+
+  .overpanel {
+    margin-bottom: 200px;
+    
+    li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 232px;
+    height: 54px;
+    border-radius: 8px;
+    font-size: 16px;
+
+      &:hover {
+        background-color: #784FFE1F;
+        color: #784FFE;
+        cursor: pointer;
+  }
+  }
+  }
+}

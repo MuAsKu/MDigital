@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  height: 80;
+  opacity: 1;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+
+  input {
+    width: 30%;
+    height: 40px;
+    margin-right: 400px;
+    border-radius: 8px;
+    border: none;
+    background-color: #F5F7FA;
+    color: #899BBE;
+  }
+
+  .profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+
+  .logo {
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+  }
+  .lang {
+    display: flex;
+    gap: 10px;
+  }
+  .arrow {
+    transform: rotate(180deg);
+  }
+}
