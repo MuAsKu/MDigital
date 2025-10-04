@@ -1,0 +1,17 @@
+.buyButton {
+  background-color: #ECE6FF;
+  height: 38px;
+  width: 94px;
+  color: #2C384F;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #D9CFFF;
+  }
+}

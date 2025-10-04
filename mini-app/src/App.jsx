@@ -8,13 +8,13 @@ import "./shared/styles/global.scss";
 function App() {
   return (
     <div>
-      <Navigation />
-
       <Routes>
         <Route path="/" element={<UsersList />} />
         <Route path="/todos" element={<TodoPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
       </Routes>
+
+      <Navigation />
     </div>
   );
 }

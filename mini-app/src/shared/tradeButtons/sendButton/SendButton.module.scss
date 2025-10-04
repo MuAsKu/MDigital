@@ -1,0 +1,17 @@
+.sendButton {
+  background-color: #724BF2;
+  height: 38px;
+  width: 94px;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #5e3bd1; 
+  }
+}

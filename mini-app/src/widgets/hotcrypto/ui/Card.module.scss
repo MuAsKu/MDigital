@@ -1,0 +1,36 @@
+.card {
+  width: 20%;
+  border-radius: 8px;
+  margin: 10px;
+  height: 187px;
+
+  .cardBlock {
+    padding: 20px;
+
+    .tablecd {
+      margin-left: 50px;
+      position: relative;
+      
+    }
+  }
+
+  p {
+    font-size: 16px;
+    color: #899BBE;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h5 {
+    color: #20BF6B;
+    display: flex;
+    gap: 5px;
+    font-size: 16px;
+  }
+
+  &:hover {
+    border: 1px solid #724BF2;
+  }
+}
