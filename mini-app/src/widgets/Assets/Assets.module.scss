@@ -1,0 +1,18 @@
+.assetsContainer {
+  width: 337px;
+  height: 593px;
+  position: absolute;
+  left: 1100px;
+  top: 420px;
+  border-radius: 6px;
+  border: 1px silver solid;
+
+  .themeAssets {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+  }
+}

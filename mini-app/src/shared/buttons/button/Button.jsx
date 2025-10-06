@@ -1,9 +1,9 @@
-import logout from "./logout.svg";
+import Logout from "./logout.svg";
 
 export default function Button() {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-      <img src={logout} alt="logoutSVG" />
+      <Logout />
       <button
         style={{
           color: "#EB3B5A",

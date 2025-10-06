@@ -1,31 +1,31 @@
 import React from "react";
 import styles from "./Overview.module.scss";
-import logoSVG from "./ui/logo.svg";
-import toggleMenuSVG from "./ui/toggle-menu.svg";
-import flagSVG from "./ui/flag.svg";
-import noticSVG from "./ui/notification.svg";
-import userImgSvg from "./ui/usersImg.svg";
+import LogoSVG from "./ui/logo.svg";
+import ToggleMenuSVG from "./ui/toggle-menu.svg";
+import FlagSVG from "./ui/flag.svg";
+import NoticSVG from "./ui/notification.svg";
+import UserImgSvg from "./ui/usersImg.svg";
 
 export default function Overview() {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
-        <img src={logoSVG} alt="logoSVG" />
+        <LogoSVG />
         <p>Zapper</p>
       </div>
 
-      <img src={toggleMenuSVG} alt="menuSVG" />
+      <ToggleMenuSVG className={styles.menu} />
       <input type="text" placeholder="Search token, value" />
 
       <div className={styles.profile}>
         <div className={styles.lang}>
-          <img src={flagSVG} alt="flagSVG" />
+          <FlagSVG />
           <p>USD</p>
           <p className={styles.arrow}>^</p>
         </div>
 
-        <img src={noticSVG} alt="nocitSVG" />
-        <img src={userImgSvg} alt="userImgSVG" />
+        <NoticSVG />
+        <UserImgSvg />
         <p className={styles.arrow}>^</p>
       </div>
     </div>

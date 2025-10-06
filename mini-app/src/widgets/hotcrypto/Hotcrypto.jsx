@@ -1,11 +1,9 @@
 import Card from "./ui/Card";
 import styles from "./Hotcrypto.module.scss";
-import tableImg from "./ui/icons/table.png";
-import vectorImg from "./ui/icons/vector.png";
 import WideCard from "./widecard/WideCard";
 import wideCardGraph from "./widecard/ui/wideCardGraph.png";
-import SendButton from "../../shared/tradeButtons/sendButton/SendButton";
-import BuyButton from "../../shared/tradeButtons/buyButton/BuyButton";
+import SendButton from "../../shared/buttons/tradeButtons/sendButton/SendButton";
+import BuyButton from "../../shared/buttons/tradeButtons/buyButton/BuyButton";
 
 export default function Hotcrypto() {
   const data = [
@@ -13,13 +11,11 @@ export default function Hotcrypto() {
       text: "Income",
       price: "$244.67",
       increase: "4.36%",
-      img: [tableImg, vectorImg],
     },
     {
       text: "Expense",
       price: "$68.67",
       increase: "4.36%",
-      img: [tableImg, vectorImg],
     },
   ];
 
@@ -39,7 +35,6 @@ export default function Hotcrypto() {
           text={card.text}
           price={card.price}
           increase={card.increase}
-          img={card.img}
         />
       ))}
     </div>

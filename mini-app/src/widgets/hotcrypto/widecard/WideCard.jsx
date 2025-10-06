@@ -1,5 +1,5 @@
 import styles from "./widecard.module.scss";
-import arrowCircleUp from "../ui/icons/arrow-circle-up.svg";
+import ArrowCircleUp from "../ui/icons/arrow-circle-up.svg";
 
 export default function WideCard({ text, price, increase, img, buttons }) {
   return (
@@ -10,7 +10,7 @@ export default function WideCard({ text, price, increase, img, buttons }) {
           <div className={styles.priceBlock}>
             <h2 className={styles.price}>{price}</h2>
             <span className={styles.increase}>
-              <img src={arrowCircleUp} alt="" />
+              <ArrowCircleUp />
               {increase}
             </span>
           </div>

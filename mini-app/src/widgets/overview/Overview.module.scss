@@ -5,6 +5,15 @@
   margin: 20px;
   align-items: center;
 
+  .menu {
+    border-radius: 8px;
+    padding: 8px;
+
+    &:hover {
+      background-color: #5d44ae1f;
+    }
+  }
+
     input {
     width: 30%;
     height: 48px;

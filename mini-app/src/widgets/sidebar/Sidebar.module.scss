@@ -21,17 +21,19 @@
 .sidebar {
 
   .overpanel {
-    margin-bottom: 200px;
+    margin-bottom: 400px;
     
     li {
     display: flex;
-    justify-content: center;
+    gap: 20px;
+    justify-content: start;
     margin-bottom: 10px;
     align-items: center;
     width: 232px;
     height: 54px;
     border-radius: 8px;
     font-size: 16px;
+    padding: 0 10px;
 
       &:hover {
         background-color: #784FFE1F;
